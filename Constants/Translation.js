@@ -4,18 +4,27 @@ module.exports = Object.freeze({
     "#PL_FIRINGRANGE-PARTY": "Shooting Friends in the Firing Range",
 
     // Lobby
-    "#RICHPRESENCE_PARTY_LOBBY_N_N": "Chilling in the Lobby...",
-    "#RICHPRESENCE_PARTY_LOBBY": "Chilling in the Lobby...",
+    "#RICHPRESENCE_PARTY_LOBBY_N_N": "In the Lobby",
+    "#RICHPRESENCE_PARTY_LOBBY": "In the Lobby",
 
     // Game Mode
+    "#PL_DAYZERO": "LAUNCH ROYALE",
+    "#PL_TRIO_HALLOWEEN_22_1_NAME": "TRICKS N' TREATS TRIOS - REVIVAL",
+    "#HALLOWEEN_22_1_LOCKDOWN": "LOCKDOWN - TRICKS N' TREATS",
+    "#GAMEMODE_OBJECTIVE_BR": "KNOCKOUT",
+    "#BATTLE_RUSH_REVIVAL_TITLE": "STRAIGHT SHOT-REVIVAL",
+    "#BOTPLAYGROUND_BOT_ROYALE_HEADER": "BOT ROYALE",
+    "#FREEDM_LOCKDOWN_MODE": "LOCKDOWN",
+    "#PL_QUAD": "QUADS",
     "#PL_TRIO": "TRIOS",
     "#PL_DUO": "DUOS",
     "#PL_Ranked_Leagues": "RANKED LEAGUES",
     "#GAMEMODE_ARENAS": "ARENAS",
     "#GAMEMODE_ARENAS_RANKED": "RANKED ARENAS",
-    "#GAME_MODE_CONTROL": "CONTROL",
+    "#GAME_MODE_CONTROL": "TRICKS N' TREATS - CONTROL",
     "#GAME_MODE_GUNGAME": "GUN GAME",
     "#PL_RANKED_LEAGUES": "RANKED LEAGUES",
+    "#BTDM_NAME": "BIG TEAM DEATHMATCH",
     "#TDM_NAME": "TEAM DEATHMATCH",
     "#PL_DUO_DATE": "DATE NIGHT",
     "#PL_TRAINING": "In the training",
@@ -31,6 +40,8 @@ module.exports = Object.freeze({
     "#mp_rr_olympus_mu1_night": "After Dark",
 
     // Normal Map
+    "#mp_rr_canyonlands_dayzero": "Kings Canyon Classic",
+    "#mp_rr_district": "E-District",
     "#mp_rr_canyonlands": "Kings Canyon",
     "#mp_rr_desertlands": "World Edge",
     "#mp_rr_olympus": "Olympus",
@@ -38,6 +49,7 @@ module.exports = Object.freeze({
     "#mp_rr_divided_moon": "Broken Moon",
 
     // Arena Map
+    "#mp_rr_thunderdome": "Thunderdome",
     "#mp_rr_arena_phase_runner": "Phase Runner",
     "#mp_rr_party_crasher": "Party Crasher",
     "#mp_rr_aqueduct": "Overflow",
@@ -53,6 +65,7 @@ module.exports = Object.freeze({
     "#control_map_name_production": "Production Yard",
 
     // Free DM
+    "#freedm_map_name_fragment": "Fragment East",
     "#freedm_map_name_skulltown": "Skull Town",
     "#freedm_map_name_estates": "Estates",
     "#freedm_map_name_dome": "Phase Runner",
