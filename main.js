@@ -128,7 +128,7 @@ SteamClient.on('user', async function(sID, user) {
         state: "",
         startTimestamp,
         largeImageKey: "apex-legends",
-        largeImageText: `ApexRPC v${appVersion}`,
+        largeImageText: "Apex Legends",
         instance: false
     };
 
@@ -192,8 +192,16 @@ SteamClient.on('user', async function(sID, user) {
             parsedLevel && Translation[parsedLevel] ? Translation[parsedLevel] : "Unknown Map"
         }`;
 
+        activity.largeImageText = `${
+            parsedLevel && Translation[parsedLevel]
+        }`;
+
         if (!level || !Translation[parsedLevel]) {
             logger.warn(`UNKNOWN LEVEL: ${parsedLevel}`, 'main:user:rpc');
+        }
+
+        if (!level || !Translation[gamemode.value]) {
+            logger.warn(`UNKNOWN MODE: ${gamemode.value}`, 'main:user:rpc');
         }
 
         if (
